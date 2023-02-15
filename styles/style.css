@@ -1,0 +1,108 @@
+/* font styles */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Manrope:wght@700&family=Poppins:wght@400;500;600;700&family=Roboto:wght@700&display=swap');
+
+:root {
+    --primary-font: 'Poppins', sans-serif;
+    --secondary-font: 'Inter', sans-serif;
+    --third-font: 'Roboto', sans-serif;
+    --alternate-font: 'Manrope', sans-serif;
+    --primary-color: #4673FF;
+    --secondary-color: #020024;
+    --font-primary: #140A0A;
+    --font-secondary: #212738;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Container Styles */
+.header-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 95px;
+    padding-bottom: 50px;
+}
+
+.header-title {
+    font-size: 24px;
+    font-family: var(--primary-font);
+    font-weight: 700;
+    color: var(--font-primary);
+}
+
+.header-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 34px;
+}
+
+.item ul {
+    display: flex;
+    align-items: center;
+    gap: 34px;
+    list-style: none;
+}
+
+.item ul li a {
+    font-size: 16px;
+    font-family: var(--primary-font);
+    color: var(--font-primary);
+    text-decoration: none;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    gap: 34px;
+}
+
+.icon .fa-magnifying-glass {
+    font-size: 24px;
+}
+
+.icon .fa-cart-shopping {
+    font-size: 36px;
+}
+
+/* Hero Container Styles */
+.hero-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 133px;
+    width: 80%;
+    margin: auto;
+}
+
+.hero-content {
+    width: 43%;
+    margin: auto;
+}
+
+.hero-content h3 {
+    font-size: 52px;
+    font-weight: 700;
+    font-family: var(--primary-font);
+    padding-bottom: 16px;
+    color: var(--font-primary);
+}
+
+.hero-content p {
+    font-size: 16px;
+    font-weight: 600;
+    font-family: var(--primary-font);
+    padding-bottom: 16px;
+    color: var(--font-secondary);
+}
+
+.image {
+    background-image: url("../assets/images/Circle\ design.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 35%;
+}
